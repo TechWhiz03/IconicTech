@@ -2,6 +2,11 @@
   "name": "mi-store-clone",
   "version": "0.1.0",
   "private": true,
+  "prettier": {
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "semi": false
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
