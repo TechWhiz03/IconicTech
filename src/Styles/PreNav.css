@@ -1,0 +1,39 @@
+.preNav {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    color: bisque;
+}
+
+.preNav>div {
+    padding: 0 4vmax;
+    display: flex;
+    align-items: center;
+}
+
+.preNav>div>span {
+    color: rgba(255, 228, 196, 0.555);
+    font-size: 0.8vmax;
+    font-weight: 100;
+}
+
+.preNav>div svg {
+    fill: bisque;
+}
+
+.preNav>div svg:hover {
+    fill: rgb(255, 255, 255);
+}
+
+.preNav>div>a {
+    color: bisque;
+    font-size: 0.9vmax;
+    font-family: 'Gill Sans';
+    font-weight: 300;
+    margin: 1vmax;
+    text-decoration: none;
+}
+
+.preNav>div>a:hover {
+    color: white;
+}
