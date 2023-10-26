@@ -7,6 +7,7 @@ import Heading from './Components/Heading'
 import StarProduct from './Components/StarProduct'
 import HotAccessoriesMenu from './Components/HotAccessoriesMenu'
 import HotAccessories from './Components/HotAccessories'
+import ProductReviews from './Components/ProductReviews'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import data from './Data/data.json'
 
@@ -79,6 +80,9 @@ function App() {
           }
         />
       </Routes>
+
+      <Heading text={' PRODUCT REVIEWS'} />
+      <ProductReviews productReviews={data.productReviews} />
     </Router>
   )
 }
