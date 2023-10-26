@@ -1,4 +1,6 @@
 import './App.css'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import data from './Data/data.json'
 import PreNav from './Components/PreNav'
 import Nav from './Components/Nav'
 import Slider from './Components/Slider'
@@ -9,14 +11,25 @@ import HotAccessoriesMenu from './Components/HotAccessoriesMenu'
 import HotAccessories from './Components/HotAccessories'
 import ProductReviews from './Components/ProductReviews'
 import Footer from './Components/Footer'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import data from './Data/data.json'
+import NavOptions from './Components/NavOptions'
 
 function App() {
   return (
     <Router>
       <PreNav />
       <Nav />
+
+      <NavOptions
+        miPhones={data.miPhones}
+        redmiPhones={data.redmiPhones}
+        tv={data.tv}
+        laptop={data.laptop}
+        fitnessAndLifeStyle={data.fitnessAndLifeStyle}
+        home={data.home}
+        audio={data.audio}
+        accessories={data.accessories}
+      />
+
       <Slider start={data.banner.start} />
       <Offers offer={data.offer} />
       <Heading text={'STAR PRODUCTS'} />
