@@ -8,6 +8,7 @@ import StarProduct from './Components/StarProduct'
 import HotAccessoriesMenu from './Components/HotAccessoriesMenu'
 import HotAccessories from './Components/HotAccessories'
 import ProductReviews from './Components/ProductReviews'
+import Footer from './Components/Footer'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import data from './Data/data.json'
 
@@ -22,6 +23,7 @@ function App() {
       <StarProduct starProduct={data.starProduct} />
       <Heading text={'HOT ACCESSORIES'} />
       <HotAccessoriesMenu />
+
       <Routes>
         <Route
           exact
@@ -83,6 +85,7 @@ function App() {
 
       <Heading text={' PRODUCT REVIEWS'} />
       <ProductReviews productReviews={data.productReviews} />
+      <Footer footer={data.footer} />
     </Router>
   )
 }
