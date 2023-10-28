@@ -1,12 +1,14 @@
 .offersSection {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: center;
     padding: 1vmax;
     background: transparent;
 }
 
 .offersSection img {
+    width: 28vmax;
     margin: .2vmax 1vmax;
     border-radius: 10px;
     transition: all 0.5s;

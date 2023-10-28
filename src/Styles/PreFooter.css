@@ -1,6 +1,7 @@
 .PreFooter {
     margin: 5vmax 0 0 0;
-    background-color: white;
+    height: 6.5vmax;
+    background-color: rgba(255, 255, 255, 0.723);
     padding: 1vmax;
     padding-bottom: 0;
     display: grid;
@@ -13,6 +14,15 @@
     display: flex;
     color: rgba(66, 66, 66, 0.829);
     cursor: pointer;
+}
+
+.PreFooter>div svg {
+    height: 1.7vmax;
+    width: 1.7vmax;
+}
+
+.PreFooter>div p {
+    font-size: 1vmax;
 }
 
 .PreFooter>div:hover svg {
@@ -28,7 +38,6 @@
     transform: scale(2) translateY(-0.2vmax);
     fill: rgba(37, 37, 37, 0.322);
     margin: 2vmax;
-
 }
 
 
@@ -66,15 +75,15 @@
     border: none;
     outline: none;
     padding: 0.5vmax 1vmax;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.892);
     font-size: 1vmax;
-
     width: 20.4vmax;
 }
 
 .PreFooter2>div>div>button {
     border: none;
     padding: 0.5vmax;
+    font-size: 1vmax;
     background-color: rgb(255, 255, 255);
     outline: none;
 }
@@ -108,9 +117,11 @@
 .PreFooter2>div:nth-child(4)>svg {
     cursor: pointer;
     margin: 1vmax;
-    fill: rgba(138, 138, 138, 0.705);
+    fill: rgba(113, 108, 108, 0.877);
+    height: 1.5vmax;
+    width: 1.5vmax;
 }
 
 .PreFooter2>div:nth-child(4)>svg:hover {
-    fill: rgb(94, 94, 94);
+    fill: rgba(255, 68, 0, 0.801);
 }

@@ -6,14 +6,14 @@
 
 
 .heading div {
-    background-color: rgba(245, 245, 220, 0.548);
+    background-color: rgba(69, 69, 69, 0.764);
     height: 1px;
     width: 30vw;
 }
 
 .heading p {
     margin: 3vmax;
-    color: beige;
+    color: black;
     font-size: 2.5vmax;
     font-family: Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 100;

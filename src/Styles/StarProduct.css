@@ -5,10 +5,19 @@
     margin: 1vmax auto;
 }
 
+.starProduct>div:first-child img {
+    height: 35vmax;
+    width: 35vmax;
+}
+
+.starProduct>div:last-child img {
+    height: 17.5vmax;
+}
+
 .starProduct>div:last-child {
     display: flex;
     flex-wrap: wrap;
-    width: 30%;
+    width: 38vmax;
 }
 
 .starProduct img {

@@ -1,6 +1,6 @@
 .footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1.8fr;
     padding: 4.5vmax;
     background-color: rgb(37, 37, 37);
     color: rgb(197, 197, 197);
@@ -10,7 +10,11 @@
     margin: 1vmax;
     display: flex;
     flex-direction: column;
+}
 
+.footer p {
+    font-size: 1.3vmax;
+    color: rgba(255, 255, 255, 0.911);
 }
 
 .footer>div:nth-child(2) {
@@ -19,29 +23,29 @@
 
 .footer>div:nth-child(2)>a {
     display: inline-block;
-
 }
 
 .footer>div>a {
     color: rgb(197, 197, 197);
-    font-size: 1vmax;
+    font-size: 0.95vmax;
     text-decoration: none;
     margin: 0.6vmax 0;
 }
 
 .footer>div>a:hover {
     color: white;
+    text-decoration: underline;
 }
 
 
 .footer>div:last-child>div {
-    width: 45%;
+    width: 50%;
     margin: 1vmax 0;
-    font-size: 0.8vmax;
+    font-size: 0.85vmax;
 }
 
 .footer>div:last-child>button {
-    width: 50%;
+    width: 52%;
     border: 1px solid white;
     background-color: rgb(37, 37, 37);
     color: white;
@@ -60,7 +64,6 @@
 .footerBorder {
     background-color: rgb(37, 37, 37);
     color: white;
-
 }
 
 .footerBorder>div {

@@ -2,6 +2,7 @@
     width: 10vmax;
     text-align: center;
     cursor: pointer;
+    margin: 2vmax 0;
 }
 
 .NavCard>img {
@@ -9,9 +10,11 @@
 }
 
 .NavCard>p {
+    font-size: 1vmax;
     margin: 0;
 }
 
 .NavCard>span {
+    font-size: .95vmax;
     color: orangered;
 }

@@ -128,7 +128,7 @@ const Footer = ({ footer }) => {
               name='email'
               placeholder='Enter Email Address'
             />
-            <button>›</button>
+            <button>{`>`}</button>
           </div>
           <span>Thanks. You're on our email list for special offers.</span>
         </div>
@@ -189,7 +189,7 @@ const Footer = ({ footer }) => {
         </div>
 
         <div>
-          <div>Chat with our Virtual AI Bot(24/7 Live Agent Support)</div>
+          <div>Chat with our Virtual AI Bot (24/7 Live Agent Support)</div>
           <button>CHAT NOW</button>
         </div>
       </div>
