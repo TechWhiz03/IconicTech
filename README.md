@@ -1,3 +1,10 @@
+## Description
+This project aims to replicate the functionality and design of Xiaomi's official online store.This involves developing a website that offers a similar user interface, product listings, and features found on the original Mi Store website.This project represents only the Frontend part of the Website and no Backend is involved.
+
+## Demo
+You can view a live demo of this project [here](https://iconictech.netlify.app/).
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
