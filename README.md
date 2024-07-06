@@ -5,6 +5,22 @@ This project aims to replicate the functionality and design of Xiaomi's official
 You can view a live demo of this project [here](https://iconictech.netlify.app/).
 
 
+## Screenshots
+
+![Screenshot 2024-07-06 142545](https://github.com/TechWhiz03/IconicTech/assets/139670768/d3f9610f-941a-4d77-9e27-a78be9703263)
+
+![Screenshot 2024-07-06 142602](https://github.com/TechWhiz03/IconicTech/assets/139670768/80339994-7678-4157-b3ec-3cb24bfac221)
+
+![Screenshot 2024-07-06 142616](https://github.com/TechWhiz03/IconicTech/assets/139670768/3e72bad8-6e84-4ae5-b3f6-08e2e71223f5)
+
+![Screenshot 2024-07-06 142630](https://github.com/TechWhiz03/IconicTech/assets/139670768/564b1e5c-4120-49cf-94bc-8023d0a9e23f)
+
+![Screenshot 2024-07-06 142650](https://github.com/TechWhiz03/IconicTech/assets/139670768/f2eab9c3-84f8-400d-9eb9-292f95d29962)
+
+![Screenshot 2024-07-06 142700](https://github.com/TechWhiz03/IconicTech/assets/139670768/d1987369-b651-44cb-90e5-8d4c19da9b2a)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
